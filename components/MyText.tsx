@@ -5,7 +5,7 @@ type Props = {
 }
 
 const MyText = ({ text }: Props) => {
-    return <Text>gdfgfd{text}</Text>
+    return <Text>{text}</Text>
 }
 
 export default MyText;
